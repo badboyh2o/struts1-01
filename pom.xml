@@ -30,6 +30,21 @@
 	    <artifactId>struts</artifactId>
 	    <version>1.2.9</version>
 	</dependency>
+	
+	
+	<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+	<dependency>
+	    <groupId>org.hibernate</groupId>
+	    <artifactId>hibernate-core</artifactId>
+	    <version>3.3.2.GA</version>
+	</dependency>
+	
+	<!-- MySQL database driver -->
+    <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>5.1.9</version>
+    </dependency>
     
   </dependencies>
   <build>
